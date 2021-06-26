@@ -4,7 +4,6 @@ import "./styles.css"
 
 
 const Busca = () =>{
-    const [repositorios, setRepositorios] = useState([]) 
     const [filtroRepositorios, setFiltroRepositorios] = useState([])
     const [busca, setBusca] = useState('')
     const [usuario, setUsuario] = useState({
