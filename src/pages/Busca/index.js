@@ -1,4 +1,5 @@
 import React, {useState, useEffect} from 'react'
+import Menu from "../../components/Menu"
 import Footer from '../../components/Footer'
 import "./styles.css"
 
@@ -33,6 +34,9 @@ const Busca = () =>{
 
     return(
         <>        
+
+        <Menu />
+
             <h2 className="subtitle">{usuario.login}</h2>
 
         <section className="flex">
